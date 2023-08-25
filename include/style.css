@@ -1,0 +1,423 @@
+.main {
+    position:absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: space-between;
+    
+}
+
+.divcabeçalho1 {
+    width: 100%;
+}
+
+.divcabeçalho2 nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.divcabeçalho2 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.nav1 {
+    display: flex;
+    padding: 0px 16px;
+    flex-direction: row;
+    background: #f25221;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#imagemlogo {
+    width: 56;
+    height: 40;
+}
+
+.sectionmain {
+    display: flex;
+    width: 100%;
+    background: url(../img/image\ 1.png);
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.divmain {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0px 0px 0px;
+    text-align: center;
+}
+
+.retteste {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0);
+    width: 1px;
+    height: 200px;
+}
+
+.button {
+    display: flex;
+    color: #fff;
+    padding: 16px 16px 16px 16px;
+    width: fit-content;
+    background: rgba(242, 82, 33, 0.8);
+    border-radius: 16px;
+    transition: all 0.3s ease-in-out;
+    border-style: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgba(242, 82, 33, 0.4);
+}
+
+.divcard1 {
+    display: flex;
+    border-radius: 16px;
+    background-color: #d9d9d9;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px 16px;
+}
+
+.divprincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.sectionserviço {
+    text-align: center;
+    padding: 0px 0px 16px 0px;
+}
+
+.divmaior {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.blackcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+    background: #000;    
+}
+
+.manroxo{
+    padding: 20px;
+}
+
+.divcard2{
+    display: flex;
+    color: #d9d9d9;
+    border-radius: 16px;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px 10px;    
+}
+
+.divsobrenos {
+    display: flex;
+    flex-direction: row;
+}
+
+.divcite{
+    text-align: end;
+}
+
+.divarticle1 {
+    display: flex;
+    border-radius: 16px;
+    background-color: #d9d9d9;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px 16px;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.divarticle2 {
+    display: flex;
+    border-radius: 16px;
+    background-color: #d9d9d9;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px 16px;
+    margin-bottom: 15px;
+}
+
+.sectioncards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 16px;
+}   
+
+.divarticle3 {
+    display: flex;
+    border-radius: 16px;
+    background-color: #d9d9d9;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px 16px;
+    margin-bottom: 15px;
+
+}
+
+.divcard3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.divcard4 {
+    display: flex;
+    display: inline-flex;
+    width: 100%;
+    padding: 8px 12% 15px 15px;
+    background-color: #d9d9d9;   
+    margin-bottom: 15px;
+    margin-left: 100px;
+    border-radius: 16px;
+    align-items: center;
+    max-height: 100px;
+    margin-top: 230px;
+    justify-content: center;
+}
+
+.divclientes{
+    text-align: center;
+}
+
+#clientesimagem {
+    position: absolute;
+    width: 150px;
+    height: 102.1px;
+    left: 258px;
+    top: 2377px;
+}
+
+#clientes2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 433px;
+    top: 2358px;
+}
+
+#clientes3 {
+    position: absolute;
+    width: 150px;
+    height: 120.36px;
+    left: 625px;
+    top: 2363px;
+}
+
+#clientes4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 801px;
+    top: 2358px;
+}
+
+#clientes5 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 980px;
+    top: 2339px;
+}
+
+#clientes6 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 258px;
+    top: 2508px;
+}
+
+#clientes7 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 433px;
+    top: 2508px;
+}
+
+#clientes8 {
+    position: absolute;
+    top: 2508px;
+   
+}
+
+#clientes9 {
+    position: absolute;
+    width: 150px;
+    height: 149.33px;
+    left: 791px;
+    top: 2508px;
+}
+
+#clientes10 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 980px;
+    top: 2508px;
+}
+.cardlaranja {
+    display: flex;
+    position: absolute;
+    width: 1224px;
+    height: 180px;
+    left: 0px;
+    top: 2725px;
+    background: #F25221;
+}
+
+
+.card1 {
+    display: flex;
+    border-radius: 16px;
+    background-color: white;
+    width: 130px;
+    height: 140px;
+    flex-direction: column;
+    padding: 8px 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#image92 {
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.card2 {
+    display: flex;
+    border-radius: 16px;
+    background-color: white;
+    width: 130px;
+    height: 140px;
+    flex-direction: column;
+    padding: 8px 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#imagem93 {
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.card3 {
+    display: flex;
+    border-radius: 16px;
+    background-color: white;
+    width: 130px;
+    height: 140px;
+    flex-direction: column;
+    padding: 8px 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#imagem94 {
+
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.laranjaclaro {
+    position: absolute;
+    width: 1224px;
+    height: 180px;
+    left: 0px;
+    top: 2904px;
+    background: #d97658;
+    
+}
+
+.bolinha1 {
+    display: flex;
+    border-radius: 50px;
+    background-color: white;
+    width: 130px;
+    height: 140px;
+    flex-direction: column;
+    padding: 8px 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.bolinhas{
+    display:flex;
+    padding: 0px;
+    margin: 0px;
+}
+.bolinhas_texto{
+    display: flex;
+    text-align: center;
+}
+.bolinha{
+    border: 10px solid black;
+    background: black;
+    border-radius:  100%;
+    height: 20px;
+    width:  20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tracejado{
+    width: 200px;
+    border-top: 1px solid white;
+    margin-top: 20px;
+}
+.n_bolinha{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.texto_bolinha{
+    display: flex;
+    padding: 10px 20px;
+}
+
+.art3 {
+    text-align: center;
+    
+}
